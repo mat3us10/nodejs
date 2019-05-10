@@ -1,3 +1,5 @@
+const Math = {};
+
 function soma(x1, x2) {
     return x1 + x2;
 }
@@ -19,8 +21,15 @@ function divisao(x1, x2) {
     }
 }
 
-//export
-exports.soma = soma;
+
+/* exports.soma = soma;
 exports.subtracao = subtracao;
 exports.multiplicacao = multiplicacao;
-exports.divisao = divisao;
+exports.divisao = divisao; */
+
+Math.soma = soma;
+Math.subtracao = subtracao;
+Math.multiplicacao = multiplicacao;
+Math.divisao = divisao;
+
+module.exports = Math;
