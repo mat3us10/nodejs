@@ -1,0 +1,19 @@
+{
+  "name": "servidor_nodejs",
+  "version": "1.0.0",
+  "description": "aprendendo como criar um servidor com nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "servidor",
+    "nodejs"
+  ],
+  "author": "Mateus Cirino",
+  "license": "ISC"
+}
